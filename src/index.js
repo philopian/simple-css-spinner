@@ -37,7 +37,7 @@ var addLoaderScreen = function(message) {
   $(fullscreen).appendTo("body");
 };
 
-addLoaderScreen("waiting for things to happen");
+addLoaderScreen("...waiting for things to happen");
 $("#github").click(function() {
   // get the custom message
   var customMessage = $("#loading-message").val();

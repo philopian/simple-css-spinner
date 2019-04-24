@@ -65,24 +65,29 @@ button {
 }
 #loading-circles .shape.shape-1 {
   left: 0;
-  background-color: #4285f4;
+  /* background-color: #4285f4; */
+  background-color: rgb(200, 200, 200);
 }
 #loading-circles .shape.shape-2 {
   right: 0;
-  background-color: #34a853;
+  /* background-color: #34a853; */
+  background-color: rgb(243, 119, 38);
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
 }
 #loading-circles .shape.shape-3 {
   bottom: 0;
-  background-color: #ea4335;
+  /* background-color: #ea4335; */
+  /* background-color: rgb(243, 119, 38); */
+  background-color: rgb(118, 118, 119);
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
 }
 #loading-circles .shape.shape-4 {
   bottom: 0;
   right: 0;
-  background-color: #fbbc05;
+  /* background-color: #fbbc05; */
+  background-color: rgb(238, 145, 84);
 }
 #loading-circles .shape-1 {
   -webkit-animation: shape1 0.3s infinite alternate;
